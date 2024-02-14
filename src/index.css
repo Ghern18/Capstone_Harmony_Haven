@@ -1,0 +1,52 @@
+/* Mental Health Website Styles with Full-Page Ombre Background */
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b4a7eb;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  margin: 10;
+  padding: 5;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark text color */
+  background: linear-gradient(to bottom, rgb(132, 219, 248), rgb(189, 135, 246)); /* Ombre effect */
+}
+
+h1, h2, h3 {
+  color: #7c40bd; /* Purple headings */
+}
+
+p {
+  color: #333; /* Dark text color */
+}
+
+/* Buttons */
+.button {
+  background-color: #51e2f5; /* Light blue button background */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #9df9ef; /* Hover effect: slightly lighter blue */
+}
+
+/* Links */
+a {
+  color: #8458B3; /* Purple link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
