@@ -20,7 +20,7 @@ export default function Sidebar() {
           <Nav.Link href="/resources">Resources</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/my-journal">My Journal</Nav.Link>
+          <Nav.Link href="/my-journal">Journal</Nav.Link>
         </Nav.Item>
       </Navbar>
   )
