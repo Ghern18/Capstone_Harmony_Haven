@@ -1,52 +1,63 @@
 /* Mental Health Website Styles with Full-Page Ombre Background */
 .app{
-  display: flex;
+  padding: 5;
+  min-height: 75px ;
   justify-content: center;
   align-items: center;
-  background-color: #b4a7eb;
-  font-family: Arial, sans-serif;
+  background-color: #c98ff9;
+  background: linear-gradient(to bottom, rgb(132, 219, 248), rgb(189, 135, 246));
+  font-family: Helvetica, bold;
 }
 
-html, body {
-  margin: 10;
-  padding: 5;
-  height: 100%;
+.header {
+  border-bottom: 50px solid #6c4a9e;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar a {
+  color: rgb(96, 214, 247);
+}
+.sidebar {
+  width: 120px;
+  margin: 5px;
+  position: sticky;
+  top: 62px;
+  align-self: flex-start;
+  align-items: start;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar a {
+  color: #444;
+}
+
+.sidebar a:hover {
+  background-color: #eee;
+}
+
+.sidebar a:visited {
+  color: #444;
+}
+
+.sidebar .nav-item .active {
+  background-color: #def;
+}
+
+.center-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
   font-family: Arial, sans-serif;
   color: #333; /* Dark text color */
-  background: linear-gradient(to bottom, rgb(132, 219, 248), rgb(189, 135, 246)); /* Ombre effect */
+  background-color: rgb(178, 216, 242); /* Ombre effect */
 }
 
-h1, h2, h3 {
-  color: #7c40bd; /* Purple headings */
-}
-
-p {
-  color: #333; /* Dark text color */
-}
-
-/* Buttons */
-.button {
-  background-color: #51e2f5; /* Light blue button background */
-  color: #fff; /* White text color */
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #9df9ef; /* Hover effect: slightly lighter blue */
-}
-
-/* Links */
-a {
-  color: #8458B3; /* Purple link color */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline; /* Underline on hover */
-}

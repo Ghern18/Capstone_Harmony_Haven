@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/esm/Container'
+import Container from 'react-bootstrap/Container'
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
   return (

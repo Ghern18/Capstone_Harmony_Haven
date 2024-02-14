@@ -1,13 +1,25 @@
 import Container from 'react-bootstrap/Container'
-import Header from './components/Header'
+import Stack from 'react-bootstrap/Stack'
+
 import { Posts } from './components/Posts'
+import Header from './components/Header'
+import Sidebar from './components/Sidebar'
+
+// import 'bootstrap/dist/css/bootstrap.min.css'
+
 export default function App(){
 
   return (
-    <Container fluid data-bs-theme= 'light blue' className= 'app'>
+    <Container fluid data-bs-theme= 'light' className= 'app'>
       <Header  />
-      <Posts></Posts>
-   
+      <Container>
+        <Stack direction= 'horizontal'>
+          <Sidebar />
+        <Posts></Posts>
+
+        </Stack>
+      
+        </Container>
     
       </Container>
   )
