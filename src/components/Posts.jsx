@@ -1,6 +1,6 @@
 import Post from "./Post"
 // import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Container from 'react-bootstrap/Container'
+
 
 
 export const Posts = () => {
@@ -71,11 +71,11 @@ export const Posts = () => {
 ]
     
   return (
-    <Container>
+    <>
         {posts.length > 0 ? posts.map((post) => {
             return <Post key={post.id} post= {post} />
             }) : <p> It's okay to not be okay. </p>
             }
-            </Container>
+            </>
   )
 }

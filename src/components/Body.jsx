@@ -9,7 +9,9 @@ export default function Body({ children}) {
     <Container>
     <Stack direction= 'horizontal'>
       <Sidebar />
+      <Container>
       { children }
+      </Container>
 
     </Stack>
   
