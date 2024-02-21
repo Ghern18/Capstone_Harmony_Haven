@@ -5,8 +5,8 @@ export default function Signup() {
     async function registerUser(){
       const res = await fetch('http://127.0.0.1:5000/register', {
         method: "POST",
-        headers: {'Content-Type': 'applisaction/json'},
-        body: user
+        headers: {'Content-Type': 'appliction/json'},
+        body: JSON.stringify(user)
       })
       if(res.ok){
         const data = await res.json()

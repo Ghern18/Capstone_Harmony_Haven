@@ -5,6 +5,7 @@ import Header from './components/Header'
 import { Posts } from './components/Posts'
 import Whiteboard from './components/Whiteboard'
 import Register from './components/forms/Register'
+import Users from './components/Users'
 
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
@@ -14,10 +15,11 @@ export default function App(){
   return (
     <Container fluid data-bs-theme= 'light' className= 'app'>
       <Header  />
-      <Body>
-        {/* /* <Posts /> */}
+      <Body> 
+        {/* <Users /> */}
+         {/* <Posts /> */}
          <Whiteboard />
-         {/* <Users /> */}
+        
         <Register />
       </Body>
       </Container>

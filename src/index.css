@@ -1,16 +1,18 @@
-/* Mental Health Website Styles with Full-Page Ombre Background */
+
 .app{
   padding: 5;
   min-height: 75px ;
   justify-content: center;
   align-items: center;
-  background-color: #c98ff9;
-  background: linear-gradient(to bottom, rgb(249, 249, 249), rgb(97, 175, 248));
-  font-family: Helvetica, bold;
+  background-image: url('background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
 }
 
-.header {
+.Header {
   border-bottom: 50px solid #6c4a9e;
+  background-color: lightblue ;
 }
 
 .sidebar .nav-item {
