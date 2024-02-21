@@ -6,6 +6,10 @@ import { Posts } from './components/Posts'
 import Whiteboard from './components/Whiteboard'
 import Register from './components/forms/Register'
 import Users from './components/Users'
+import SocialPage from './pages/SocialPage'
+import FormPage from './pages/FormPage'
+import LandingPage from './pages/LandingPage'
+import Login from './components/forms/Login'
 
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
@@ -15,13 +19,16 @@ export default function App(){
   return (
     <Container fluid data-bs-theme= 'light' className= 'app'>
       <Header  />
-      <Body> 
-        {/* <Users /> */}
-         {/* <Posts /> */}
-         <Whiteboard />
-        
+      <FormPage>
+        <Login />
+      </FormPage>
+      {/* <FormPage>
         <Register />
-      </Body>
+
+      </FormPage> */}
+{/*    
+      <Whiteboard /> */}
+   
       </Container>
   )
 }

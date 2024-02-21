@@ -31,7 +31,7 @@ export default function Signup() {
       <input type= "email" name= 'email' value={user.email} onChange= {(e)=> setUser({...user, email: e.target.value})} required/><br />
       <label htmlFor="password">Password</label><br />
       <input type= "password" name='password' value={user.password} onChange= {(e)=> setUser({...user, password: e.target.value})} required/><br />
-      <input type="Submit" />
+      <input type="Submit" value={'Register'}/>
     </form>
 
     </>
