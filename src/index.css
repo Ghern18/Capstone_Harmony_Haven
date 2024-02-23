@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
 .app{
   padding: 5;
   min-height: 75px ;
@@ -7,12 +10,12 @@
   background-image: url('background.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Arial;
+  font-family: 'Quicksand', sans-serif;
 }
 
-.Header {
-  border-bottom: 50px solid #6c4a9e;
-  background-color: lightblue ;
+.header {
+  border-bottom: 50px solid rgb(82, 140, 206);
+  background-color: rgba(142, 234, 239, 0.3);
 }
 
 .sidebar .nav-item {

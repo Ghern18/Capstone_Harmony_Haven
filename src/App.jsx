@@ -10,6 +10,7 @@ import SocialPage from './pages/SocialPage'
 import FormPage from './pages/FormPage'
 import LandingPage from './pages/LandingPage'
 import Login from './components/forms/Login'
+import { Route, Routes } from 'react-router-dom'
 
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
@@ -19,9 +20,17 @@ export default function App(){
   return (
     <Container fluid data-bs-theme= 'light' className= 'app'>
       <Header  />
-      <FormPage>
-        <Login />
-      </FormPage>
+      <Routes>
+        <Route path='/' element={<LandingPage><Whiteboard /></LandingPage>} />
+        <Route path='/login' element={<FormPage><Login /></FormPage>} />
+        <Route path= '/register' element={<FormPage><Register /></FormPage>} />
+        <Route path= '/users' element={<SocialPage><Users /></SocialPage>} />
+        <Route path= '/posts' element={<SocialPage><Posts /></SocialPage>} />
+
+
+
+      </Routes>
+    
       {/* <FormPage>
         <Register />
 
